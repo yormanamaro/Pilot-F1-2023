@@ -1,3 +1,23 @@
-.hello {
-    background-color: aqua;
+.containerPilots {
+    background-color: var(--white);
+}
+
+.imgPilots {
+
+}
+
+.container_information {
+    
+}
+
+.pilot_name {
+    
+}
+
+.team_pilot {
+
+}
+
+.pilot_story {
+
 }

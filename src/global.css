@@ -1,0 +1,33 @@
+* { 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --very-black: #000000;
+  --very-gris: #c9c1c1;
+  --white: #FFFFFF;
+  --black: #000000;
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+}
+
+html, body {
+  font-size: var(--lg);
+  background-color: var(--very-gris);
+} 
+
+.title {
+  max-width: 940px;
+  font-size: 3.5em;
+  font-family: Lato, sans-serif;
+  font-weight:700;
+  margin: 40px 0;
+}
+
+.App {
+  
+}
+
