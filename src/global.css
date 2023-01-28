@@ -6,7 +6,7 @@
 
 :root {
   --very-black: #000000;
-  --very-gris: #c9c1c1;
+  --very-gris: #4a4a5a;
   --white: #FFFFFF;
   --black: #000000;
   --sm: 14px;
@@ -25,9 +25,15 @@ html, body {
   font-family: Lato, sans-serif;
   font-weight:700;
   margin: 40px 0;
+  color: var(--white);
 }
 
 .App {
-  
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
