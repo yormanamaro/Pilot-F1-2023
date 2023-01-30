@@ -1,5 +1,6 @@
 import React from 'react'
 import Pilots from './components/Pilots/Pilots';
+import Championships from './components/Championships/Championships';
 import './global.css';
 
 function App() {
@@ -35,8 +36,7 @@ function App() {
         name='Lando Norris'
         country='United Kingdom'
         team='McLaren Formula 1 Team'
-        review='Paired with the highly-rated – and far more experienced – Carlos Sainz, his rookie season was impressive, Norris edging the Spaniard in their head-to-head qualifying battle, scoring points 11 times, and only narrowly missing out on a top-10 championship placing.'       
-      />
+        review='Paired with the highly-rated – and far more experienced – Carlos Sainz, his rookie season was impressive, Norris edging the Spaniard in their head-to-head qualifying battle, scoring points 11 times, and only narrowly missing out on a top-10 championship placing.' />     
     </div>
   );
 };

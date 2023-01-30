@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 :root {
@@ -22,8 +23,9 @@ html, body {
 .title {
   max-width: 940px;
   font-size: 3.5em;
-  font-family: Lato, sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-weight:700;
+  line-height: 1.1;
   margin: 40px 0;
   color: var(--white);
 }
@@ -35,5 +37,9 @@ html, body {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+.container-Champioships {
+  display: flex;
 }
 

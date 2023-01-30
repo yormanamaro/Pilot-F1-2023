@@ -11,8 +11,8 @@ const Pilots = (props) => { // Saber que require es una de las formas de inserta
           src={require(`../images/piloto-${props.imgPilot}.png`)} 
           alt="Photography by Fernando Alonso" /> 
           <div className={stylePilots.container_information}>
-            <p className={stylePilots.pilot_name}>{props.name} from {props.country}</p>
-            <p className={stylePilots.team_pilot}>Driver of the {props.team}</p>
+            <p className={stylePilots.pilot_name}><strong>{props.name}</strong> from {props.country}</p>
+            <p className={stylePilots.team_pilot}>Driver of the <strong>{props.team}</strong></p>
             <p className={stylePilots.pilot_story}>"{props.review}"</p>
           </div>
       </div>
@@ -21,6 +21,8 @@ const Pilots = (props) => { // Saber que require es una de las formas de inserta
 };
 
 export default Pilots
+
+
 
 
 
