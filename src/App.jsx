@@ -9,9 +9,14 @@ function App() {
 
   const [currentPilots, setCurrentPilots] = useState(''); 
 
+  const onClickListpilots = (pilot) => {
+    setCurrentPilots(pilot);
+  }
+
   return (
     <div className='App'>
       <h1 className='title'>My list of favorite formula one drivers</h1>
+
       <Pilots
         imgPilot='fernandoAlonso' 
         name='Fernando Alonso'
@@ -41,7 +46,23 @@ function App() {
         name='Lando Norris'
         country='United Kingdom'
         team='McLaren Formula 1 Team'
-        review='Paired with the highly-rated – and far more experienced – Carlos Sainz, his rookie season was impressive, Norris edging the Spaniard in their head-to-head qualifying battle, scoring points 11 times, and only narrowly missing out on a top-10 championship placing.' />     
+        review='Paired with the highly-rated – and far more experienced – Carlos Sainz, his rookie season was impressive, Norris edging the Spaniard in their head-to-head qualifying battle, scoring points 11 times, and only narrowly missing out on a top-10 championship placing.' />    
+        
+        <div>
+
+          <h1 className='title'>Who do you think will be champion this year?</h1>
+          <div className='containerChampions'>
+
+            <PilotsList 
+              pilot={currentPilots}
+              onPilotClick={onClickListpilots}
+            />
+
+            <DisplayPilots pilot={currentPilots} />
+
+          </div>
+          
+        </div> 
     </div>
   );
 };

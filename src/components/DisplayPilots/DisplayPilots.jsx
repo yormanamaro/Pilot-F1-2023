@@ -1,8 +1,9 @@
 import React from 'react'
+import s from './style.module.css'
 
-const DisplayPilots = () => {
+const DisplayPilots = (props) => {
   return (
-    <div>
+    <div className={s.container}>
       Hello i am DisplayPilots
     </div>
   )

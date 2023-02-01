@@ -39,7 +39,15 @@ html, body {
   text-align: center;
 }
 
-.container-Champioships {
+.containerChampions {
+  background-color: var(--white);
+  width: 1170px;
+  height: 368px;
+  margin: 10px 10px 50px;
   display: flex;
+  align-items: center;
+  justify-content:space-around;
+  box-shadow: 0 3px 13px 1px rgb(0, 0, 0 / 9%);
+  border-radius: 15px;
 }
 
