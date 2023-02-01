@@ -1,9 +1,14 @@
 import React from 'react'
+import { useState } from 'react';
 import Pilots from './components/Pilots/Pilots';
-import Championships from './components/Championships/Championships';
+import DisplayPilots from './components/DisplayPilots/DisplayPilots';
+import PilotsList from './components/PilotsList/PilotsList';
 import './global.css';
 
 function App() {
+
+  const [currentPilots, setCurrentPilots] = useState(''); 
+
   return (
     <div className='App'>
       <h1 className='title'>My list of favorite formula one drivers</h1>
