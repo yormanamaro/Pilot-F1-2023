@@ -50,7 +50,7 @@ function App() {
         
         <div>
 
-          <h1 className='title'>Who do you think will be champion this year?</h1>
+          <h1 className='titleTwo'>Who do you think will be champion this year?</h1>
           <div className='containerChampions'>
 
             <PilotsList 
@@ -61,7 +61,7 @@ function App() {
             <DisplayPilots pilot={currentPilots} />
 
           </div>
-          
+
         </div> 
     </div>
   );

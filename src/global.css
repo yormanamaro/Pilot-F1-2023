@@ -30,6 +30,16 @@ html, body {
   color: var(--white);
 }
 
+.titleTwo {
+  max-width: 940px;
+  font-size: 3em;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight:700;
+  line-height: 1.1;
+  margin: 40px 95px;
+  color: var(--white);
+}
+
 .App {
   min-height: 100vh;
   display: flex;
@@ -42,7 +52,7 @@ html, body {
 .containerChampions {
   background-color: var(--white);
   width: 1170px;
-  height: 368px;
+  height: 640px;
   margin: 10px 10px 50px;
   display: flex;
   align-items: center;

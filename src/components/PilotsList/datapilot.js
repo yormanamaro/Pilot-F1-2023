@@ -1,0 +1,22 @@
+export const PILOTS_2023 =[
+    'Max Verstappen',
+    'Sergio Perez',
+    'Charles leclerc',
+    'Carlos Sainz',
+    'George Russell',
+    'Lewis Hamilton',
+    'Esteban Ocon',
+    'pierre Garly',
+    'Oscar Piastri',
+    'lando Norris',
+    'Valtteri bottas',
+    'Zhou Guanyu',
+    'Lance Stroll',
+    'Fernando Alonso',
+    'Kevin Magnussen',
+    'Nico Hulkenberg',
+    'Nyck De Vries',
+    'Yuki Tsunoda',
+    'Alexander Albon',
+    'logan Sargeant'
+];
