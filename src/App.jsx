@@ -11,6 +11,7 @@ function App() {
 
   const onClickListpilots = (pilot) => {
     setCurrentPilots(pilot);
+    alert('Great see you at the end of the year');
   }
 
   return (

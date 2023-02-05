@@ -1,9 +1,10 @@
 .container {
     height: 280px;
     width: 280px;
-    border: solid 9px grey;
+    border: solid 9px var(--red-f1);
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    background: var(--gris-champions);
 }

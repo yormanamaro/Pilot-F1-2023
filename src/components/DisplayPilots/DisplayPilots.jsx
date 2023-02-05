@@ -10,5 +10,4 @@ const DisplayPilots = (props) => {
     </div>
   )
 }
-
 export default DisplayPilots

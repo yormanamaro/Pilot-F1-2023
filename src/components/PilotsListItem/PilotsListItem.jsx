@@ -17,12 +17,12 @@ const PilotsListItem = (props) => {
 
   const getBackgraundColor = () => {
     if (isHovered) {
-      return '#a5e9ff';
+      return '#f9f9f9';
     } else {
       if (props.isSelected) {
-        return '#26baea';
+        return '#e8743a';
       } else {
-        return '#eff0ef'
+        return '#ededed';
       } 
     }
   };
